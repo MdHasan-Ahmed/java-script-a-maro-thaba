@@ -62,7 +62,63 @@ for (let examDate of exam){
   console.log(examDate);
 };
 
+//while patla dail;*
+
+// Declare a loop variable with an initial Value
+// while(loop condition){
+//   Repetitive tasks
+//   Change the value of the loop variable
+// }
+
+let num = 0;
+while(num<5){console.log('Bamboo eating High School');num++;}
+
+// num++, num+=1, num=num+1 ai sob gulai eki command
 
 
+// 1. while লুপ দিয়ে 10 বার কনসোল লগ কর। আমি প্রতিদিন মিনিমাম 3 ঘণ্টা করে প্রোগ্রামিং প্র্যাকটিস করব। 
 
+let practice = 0;
+while(practice<10){
+  console.log('আমি প্রতিদিন মিনিমাম 3 ঘণ্টা করে প্রোগ্রামিং প্র্যাকটিস করব');practice+=1;
+}
+
+
+// 1. while লুপ দিয়ে 13 বার কনসোল লগ কর। আমি প্রতিদিন মিনিমাম 3 ঘণ্টা করে প্রোগ্রামিং প্র্যাকটিস করব। 
+
+let practices = 0;
+while (practices<13){
+  console.log('আমি প্রতিদিন মিনিমাম 3 ঘণ্টা করে প্রোগ্রামিং প্র্যাকটিস করব');practices+=1;
+}
+
+// 2.তুই 1 থেকে 20 পর্যন্ত সংখ্যা লিখবি একটা while লুপ দিয়ে।
+
+let numb = 1;
+while (numb<21){
+  console.log(numb);numb+=1;
+}
+
+// 3.while লুপ দিয়ে 50 থেকে 100 পর্যন্ত সংখ্যা প্রিন্ট কর।
+
+let numb1 = 50;
+while (numb1<101){
+  console.log(numb1);numb1+=1;
+}
+
+// 4.একটি while লুপ দিয়ে 1 থেকে 10 পর্যন্ত সংখ্যাগুলো প্রিন্ট করার সময় সংখ্যাগুলাকে 3 দিয়ে গুণ করে ফেলবি। তাহলে কিন্তু 3-এর নামটা হয়ে যাবে। 
+
+let numb2 = 1;
+while(numb2<11){
+  console.log(numb2*3);numb2+=1;
+};
+
+// 5.একটি while লুপ দিয়ে 111 থেকে 110 পর্যন্ত সংখ্যাগুলো প্রিন্ট করার সময় সংখ্যাগুলাকে 2 দিয়ে ভাগ করে ফেলবি। 
+
+let numb3 = 111;
+
+while(numb3>=110){
+  console.log(numb3/2);numb3-=1;
+}
+
+// Biyog korte korte nicher dike asle just +=1 er jaygay -=1 ba --1 etc likhte HTMLObjectElement;
 
