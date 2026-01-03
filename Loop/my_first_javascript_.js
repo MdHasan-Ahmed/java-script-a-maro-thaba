@@ -122,3 +122,93 @@ while(numb3>=110){
 
 // Biyog korte korte nicher dike asle just +=1 er jaygay -=1 ba --1 etc likhte HTMLObjectElement;
 
+
+// While লুপ দিয়ে যোগফল
+
+
+let numb4 = 1;
+let sum = 0;
+while (numb4<=10){
+  console.log(numb4);sum=sum+numb4;numb4+=1;
+};
+console.log('Sum:',sum);
+
+// ============================
+
+let numb5 = 1;
+let sums = 0;
+
+while (numb5<=15){
+  console.log(numb5);sums = sums+numb5 ;numb5+=1;
+}
+
+console.log(sums);
+
+// practice task
+
+// 1. while লুপ দিয়ে 50 থেকে 100 পর্যন্ত সংখ্যা প্রিন্ট কর। 
+
+let numbers1 = 50;
+while(numbers1<=100){
+  console.log(numbers1);numbers1+=1;
+};
+
+// 2.while লুপ দিয়ে 5 থেকে 15 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর।
+
+let numbers2 = 5;
+let jogfol = 0;
+
+while(numbers2<=15){
+  console.log(numbers2);jogfol = numbers2+jogfol;numbers2++;
+}
+
+console.log(jogfol);
+
+// 3.তুই এক স্কুলে 1 থেকে 50 পর্যন্ত ছাত্রদের রোল নম্বর লিস্ট করবি, তারপর একটা while লুপ ব্যবহার করে সেই সংখ্যাগুলোর যোগফল বের কর।
+
+let roll = 1;
+let rollJogfol= 0;
+
+while (roll<=50){
+  console.log(roll);rollJogfol = rollJogfol+roll; roll++;
+}
+
+console.log(rollJogfol);
+
+// 4.while লুপ ব্যবহার করে 21 থেকে 50 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর এবং প্রতিবারের যোগফল দেখাবি।
+
+let numbers3 = 21;
+let sum1 = 0;
+
+while (numbers3<=50){
+  console.log(numbers3);sum1= sum1+numbers3;console.log(sum1); numbers3++;
+}
+
+console.log(sum1);
+
+
+console.log("Ai bar practice er test hobe===========");
+
+// 4.while লুপ ব্যবহার করে 1 থেকে 20 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর এবং প্রতিবারের যোগফল দেখাবি।
+
+let numbers4 = 1;
+let maths = 0;
+
+while(numbers4<=20){
+  console.log(numbers4);maths = maths+ numbers4; console.log(maths); numbers4++;
+}
+
+console.log(maths);
+
+// 5.20 থেকে 40 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর এবং শুধু ফাইনাল যোগফলটা আউটপুট হিসেবে দেখবি।
+
+let numbers5 = 20;
+let jogfol1 = 0;
+while(numbers5<=40){
+  console.log(numbers5);jogfol1= jogfol1+ numbers5;numbers5++;
+}
+
+console.log(jogfol1);
+
+
+
