@@ -71,5 +71,34 @@ let tablesHas = ['Sound box', 'Monitor', 'Keyboard', 'Mouse', 'Mouse pad'];
  console.log(tablesHas[7]);
 
 //  Push pop
+// Push for add word or number in the last of Array
+// Pop for remove word or number in the last of array
 
+// Shift for remove word or number in the first of array
+// unshift for add word or number in the first of array
 
+let numb = [10,20,30,40,50];
+console.log(numb);
+numb.push(60);
+console.log(numb);
+
+numb.push(70);
+console.log(numb);
+
+let names = ['Sojib', 'Sagor', 'Sakib', 'Sohel'];
+names.push('Sumon');
+console.log(names);
+
+let gaming = ['Pubg', 'Cricket', 'Clash of clan','Carrom', 'Ludo'];
+
+gaming.pop();
+console.log(gaming);
+
+let newnumb = [24, 36, 48, 60];
+newnumb.unshift(12);
+console.log(newnumb);
+
+let books = ['book1', 'book2', 'book3', 'book4', 'book5'];
+
+books.shift();
+console.log(books);
