@@ -30,3 +30,46 @@ let evennumbers = [];
 for(let i = 2; i<=300; i+=2){evennumbers.push(i)};
 console.log(evennumbers);
 
+let colors = ['pink', 'black', 'white', 'Navy blue', 'choclate', 'blue', 'green','brown', 'yellow']
+console.log(colors.length);
+
+let country = ['dhaka', 'dilli', 'Islamabad', 'colombo', 'Newyork','kathmondu']
+console.log(country.length);
+
+console.log(country[2]);
+// jodi array er man  poriborton korte chai
+country[2] = 'Agargaou';
+console.log(country[2]);
+
+let friends = ['Tipu', 'Mamun', 'Moin', 'Monowar', 'Rubel', 'Diponkor'];
+console.log(friends[3]);
+
+let favouriteBooks = ['Uncle toms cabin', 'Bonhur', 'Masud rana', 'Himu remind a ', 'Holud Himu kalo Rab', 'Foujindio dip', 'Nil pathor'];
+
+console.log(favouriteBooks[5]);
+
+let numbering = [1,2,3,4,5,6,7,8,9,10];
+console.log(numbering[7]);
+numbering[7]=30;
+console.log(numbering[7]);
+
+let games=['Free fire', 'Pubg', 'Candy crush', 'Temple run'];
+
+console.log(games[2]);
+games[2]='Subway surfer';
+console.log(games[2]);
+
+let familyMember= ['Sanaullah Ahmed', 'Asma begum', 'Shimu', 'Tanvin', 'Tayba', 'Suchona', 'Hurichian', 'Hasan'];
+
+console.log(familyMember[3]);
+
+let visitingCountry = ['America, Saudi Arabia', 'Switzerland', 'New Zealand', 'Netherland', 'Australia', 'India', 'Pakistan'];
+
+console.log(visitingCountry[4]);
+
+let tablesHas = ['Sound box', 'Monitor', 'Keyboard', 'Mouse', 'Mouse pad'];
+ console.log(tablesHas[7]);
+
+//  Push pop
+
+
