@@ -210,5 +210,102 @@ while(numbers5<=40){
 
 console.log(jogfol1);
 
+console.log("objectobjectobject");
+
+
+// For লুপের খিচুড়ি
+
+// আবার ঠিক আগের মতোই । 1 থেকে 10 পর্যন্ত প্রিন্ট করতে চাইলে নিচের মতো করে লিখবি। 
+
+for(let a = 1; a<=10; a++){
+  console.log(a);
+};
+
+// 50 থেকে 100 পর্যন্ত
+
+for(let b = 50; b<=100; b++){
+  console.log(b);
+};
+
+// while loop diye halka chesta
+
+let c = 1;
+while(c<=10){
+  console.log(c);c++;
+};
+
+// এইবার for loop দিয়ে 11 থেকে 20 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর।
+
+// jodi eta while loop diye kori ta hole hobe
+
+let number1 = 11;
+let sum2 = 0;
+while(number1<=20){
+  console.log(number1);sum2 = sum2+number1;number1++
+}
+console.log(sum2);
+ //ebar for diye practic kora jak
+
+for (let number2 = 11; number2<=20; number2++){
+  console.log(number2);
+}
+
+// jogfol by for loop
+console.log('newwwwwwwww');
+
+let jogfol2 = 0;
+for(let number3 = 11; number3<=20;  number3++){
+  jogfol2 = jogfol2 + number3;
+}
+
+console.log(jogfol2);
+
+// jodi protitar man dekhtechai
+
+let suming = 0;
+
+for(let songkha = 11; songkha<=20; songkha++){
+  suming=suming+songkha;console.log(suming);
+};
+
+// Practice time
+// For লুপ দিয়ে 150 থেকে 170 পর্যন্ত সংখ্যা প্রিন্ট কর। 
+console.log('Practice time');
+for(let newPrint = 150; newPrint<=170; newPrint++){
+  console.log(newPrint);
+};
+
+
+// তুই এক স্কুলে 31 থেকে 58 পর্যন্ত ছাত্রদের রোল নম্বর লিস্ট করবি, তারপর একটা for লুপ ব্যবহার করে সেই সংখ্যাগুলোর যোগফল বের কর।
+
+let rollsum = 0;
+
+for(let roll = 31; roll<=58; roll++){
+  rollsum = rollsum+roll;
+}
+console.log(rollsum);
+
+// For লুপ দিয়ে 25 থেকে 75 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর এবং যোগফল শেষে প্রিন্ট কর।
+
+console.log('task 3');
+
+let sum3 = 0;
+
+for(let firstnum = 25; firstnum<=75; firstnum++){
+  sum3 = sum3+firstnum;
+}
+console.log(sum3);
+
+// For লুপ দিয়ে 25 থেকে 75 পর্যন্ত সংখ্যাগুলোর যোগফল বের কর এবং যোগফল শেষে প্রিন্ট কর।
+console.log('ebar jogfol alada alada print hobe');
+
+let sum4 = 0;
+
+for(let firstnum1 = 25; firstnum1<=75; firstnum1++){
+  sum4 = sum4+firstnum1;console.log(sum4);
+};
+
+
+// জোড়-বিজোড় লুপের শর্ত
 
 
