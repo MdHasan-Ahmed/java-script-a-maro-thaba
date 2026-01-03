@@ -102,3 +102,103 @@ let books = ['book1', 'book2', 'book3', 'book4', 'book5'];
 
 books.shift();
 console.log(books);
+
+// ke include ache ke nai practice
+
+let friendSet1 = ['Abul','Babul','Kabul','Nabul','Bulbul', 'Mukbul','Chulbul'];
+
+let exist = friendSet1.includes('Mukbul');
+console.log(exist);
+
+exist = friendSet1.includes('Abul');
+console.log(exist);
+
+// 2nd practice if else
+
+let friendSet2 = ['Abul','Babul','Kabul','Nabul','Bulbul', 'Mukbul','Chulbul'];
+
+if (friendSet2.includes('Abul')) {console.log('Lets party');}else{
+  console.log('No party');
+};
+
+// Short way
+
+let friendSet3 = ['Abul','Babul','Kabul','Nabul','Bulbul', 'Mukbul','Chulbul'];
+
+let ExistMassage = friendSet3.includes('Abul')?"Party":"No party";
+
+console.log(ExistMassage);
+
+// indexof diye jana jay array er position koto number a ahce.
+
+let friendSet4 = ['Abul','Babul','Kabul','Nabul','Bulbul', 'Mukbul','Chulbul'];
+
+console.log(friendSet4.indexOf('Mukbul'));
+
+// Arek vabe kora jay
+
+let friendSet5 = ['Abul','Babul','Kabul','Nabul','Bulbul', 'Mukbul','Chulbul'];
+
+let index = friendSet5.indexOf('Bulbul');
+console.log(index);
+
+// Practice time
+
+let fruits1 = ['apple', 'banana', 'orange', 'mango', 'guava', 'nut'];
+
+let checksAm = fruits1.includes('Am');
+
+// 2nd way
+
+let fruits2 = ['apple', 'banana', 'orange', 'mango', 'guava', 'nut'];
+
+if (fruits2.includes('Am')){
+  console.log('Am ahce');
+}else{
+  console.log('Am nai Gache oth');
+};
+
+// 3 number practice
+
+let name1 = ['Babul', 'Alif', 'Choton'];
+
+let index1 = name1.indexOf('Babul');
+console.log(index1);
+
+let friends1 = ['Rimon', 'Rifat', 'Rajib'];
+console.log(friends1.indexOf('Rifat'));
+
+let city = ['Dhaka', 'Chittagong', 'Sylhet'];
+city.unshift('rajshahi');
+console.log(city);
+
+let checkcity = city.includes('Rajshahi');
+console.log(checkcity);
+// long way check
+let name2 =['দীঘি', 'মেঘ', 'বৃষ্টি', 'বর্ষা'];
+if (name2.includes('বৃষ্টি')) {
+  console.log('I need umberalla');
+}else{
+  console.log('No rain no pain');
+};
+
+//short way check 1
+
+let name3 =['দীঘি', 'মেঘ', 'বৃষ্টি', 'বর্ষা'];
+
+let checkname = name3.includes('বৃষ্টি')?'I need umberalla2':'No rain no pain';
+console.log(checkname);
+
+//short way check 2
+let name4 =['দীঘি', 'মেঘ', 'বৃষ্টি', 'বর্ষা'];
+console.log(name4.includes('বৃষ্টি')?'I need umberalla3':'No rain no pain');
+
+
+// 7 no practice
+
+// তোর প্রিয় খেলাধুলার একটা অ্যারে আছে— ‘ফুটবল’, ‘ক্রিকেট’, ‘ভলিবল’। এখন তুই চেক করতে চাস ‘ব্যাডমিন্টন’ নামক খেলাটি অ্যারেতে আছে কি না।
+
+let favouriteGames = ['ফুটবল','ক্রিকেট','ভলিবল'];
+
+console.log(favouriteGames.includes('ব্যাডমিন্টন'));
+
